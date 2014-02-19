@@ -49,6 +49,8 @@ JoleYe 1.6版本开源了
 
 3.在系统生成的时候如果没有找到约定的类，那么将继承前端公用的类，即：Frontend
 
+4.各全局参数和模板语法介绍：http://www.joleye.com/viewinfo-519.aspx
+
 
 二次开发说明
 ===
