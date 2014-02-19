@@ -22,7 +22,7 @@ JoleYe 1.6版本开源了
 
 4.JoleYe.Data 数据库操作相关库
 
-5.JoleYe.Model 数据抽象层
+5.JoleYe.Model 实体层
 
 6.JoleYe.URLRewrite 自定义访问地址相关库
 
