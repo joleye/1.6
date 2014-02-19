@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>系统提示</title>
+<style type="text/css">
+<!--
+.showMessage { height: 230px; width: 600px; border: 2px solid #FF9933; margin-top: 50px; margin-right: auto; margin-bottom: auto; margin-left: auto; font-size: 14px; background-color: #fcfcfc; }
+.showMessage .message { height: 80px; color: #FF0000; margin: auto; padding: 10px; }
+.showMessage .url {
+	padding: 10px;
+	text-align: center;
+}
+.showMessage .url .btn { display: block; height: 30px; width: 100px; line-height: 30px; text-align: center; background-color: #EBEBEB; margin: auto; border-top-width: 0px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: #999999; border-right-color: #999999; border-bottom-color: #999999; border-left-color: #999999; }
+-->
+</style>
+</head>
+
+<body>
+<div class="showMessage">
+	<div class="message">系统提示：{system.message}</div>
+    
+    <div class="url"><a href="{system.url}" id="btn" class="btn">点击跳转</a></div>
+</div>
+<script type="text/javascript">
+document.getElementById("btn").focus();
+</script>
+</body>
+</html>

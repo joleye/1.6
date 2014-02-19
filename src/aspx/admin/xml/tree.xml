@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <template title="常规管理" show="1" href="javascript:goto(0);">
+    <item href="welcome.aspx" title="系统信息" type="1" show="1">
+    </item>
+    <item href="edit_user_info.aspx" title="用户管理" type="1" show="1">
+    </item>
+    <item href="global/admin_config.aspx" title="基本设置" type="1" show="1">
+    </item>
+    <item href="global/site_config.aspx" title="网站设置" type="1" show="1">
+    </item>
+    <item href="link.aspx" title="友情链接" type="1" show="1">
+    </item>
+    <item href="join/admin_join.aspx" title="加盟管理" type="1" show="1">
+    </item>
+    <item href="user/admin_user.aspx" title="会员管理" type="1" show="1">
+    </item>
+    <item href="admin_intro.aspx?intId=34" title="品牌介绍" type="2" show="0" key="brand" />
+    <item href="admin_intro.aspx?intId=35" title="下载中心" type="2" show="1" key="down" />
+    <item href="admin_intro.aspx?intId=52" title="技术支持" type="2" show="0" key="zhichi" />
+    <item href="admin_intro.aspx?intId=53" title="公司简介" type="2" show="0" key="intro" />
+    <item href="admin_intro.aspx?intId=54" title="CMS介绍" type="2" show="1" key="cms" />
+  </template>
+  <template title="资讯管理" show="1" href="javascript:goto(1);">
+    <item href="article/gl_manage.aspx" title="资讯管理" type="1" show="1">
+    </item>
+    <item href="article/gl_type.aspx" title="资讯类目" type="1" show="1">
+    </item>
+    <item href="article/gl_manage.aspx?classid=67" title="行业资讯" type="2" show="1" key="" />
+  </template>
+  <template title="产品管理" show="1" href="javascript:goto(2);">
+    <item href="product/manage.aspx" title="产品管理" type="1" show="1">
+    </item>
+    <item href="product/pro_type.aspx" title="类型管理" type="1" show="1">
+    </item>
+    <item href="product/mgr_attr.aspx" title="产品属性" type="2" show="1" key="" />
+  </template>
+  <template title="博客相册" show="1" href="javascript:goto(3);">
+    <item href="album/photo_add.aspx" title="添加图片" type="1" show="1">
+    </item>
+    <item href="album/admin_main.aspx" title="图片管理" type="1" show="1">
+    </item>
+    <item href="blog/blog_edit.asp?app=add" title="写博客" type="2" show="0" key="" />
+    <item href="adver/admin_main.aspx" title="广告管理" type="1" show="1">
+    </item>
+  </template>
+  <template title="其他" show="1" href="javascript:goto(4);">
+    <item href="template/system.aspx" title="模板管理" type="1" show="1">
+    </item>
+    <item href="template/template_list.aspx" title="全局管理" type="1" show="1">
+    </item>
+    <item href="global/auto_page.aspx" title="自定页面" type="1" show="1">
+    </item>
+    <item href="tool/make_thumbs.aspx" title="生成小图" type="2" show="0" key="" />
+    <item href="tool/curve.aspx" title="绘制曲线" type="2" show="0" key="" />
+  </template>
+</root>

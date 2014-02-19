@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="retemplate.aspx.cs" Inherits="JoleYe.Admin.Retemplate" %>

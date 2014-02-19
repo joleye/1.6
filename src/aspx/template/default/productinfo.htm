@@ -1,0 +1,27 @@
+﻿{include file="header.htm"}
+<div class="tool bd">目前位置 ：首页 >  <a href="productlist.aspx">产品中心</a> > 产品浏览</div>
+<div class="heng"></div>
+<div class="body bd" id="bd">
+    <div class="left" id="proinfo">
+        <div class="probox">
+            <div class="proimg"><img src="{$datarow["productImgUrl"]}" width="320" height="320"></div>
+            <div class="intro">
+            <ul>
+                <li><span>产品名称：</span>{$datarow["productname"]}</li>
+                <li><span>价　　格：</span>{$datarow["price"]}</li>
+                <li><span>浏&nbsp;&nbsp;览&nbsp;&nbsp;量：</span>{$datarow["hitnum"]}</li>
+                <li class="buy"><a href="#" name="buy" type="button" value="" title="购买" id="go-buy" ><b></b></a> <a  href="#" name="car" type="button" value="" id="go-addcar" title="加入购物车"><b></b></a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="procontent">
+        {$datarow["content"]}
+        </div>
+    </div>
+    <div class="right">
+    {include file="right.htm"}
+    </div>
+</div>
+<div class="heng"></div>
+{include file="footer.htm"}

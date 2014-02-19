@@ -1,0 +1,22 @@
+{include file="header.htm"}
+<!--头部 over-->
+<div class="tool bd">目前位置 ：首页 >  <a href="listinfo.aspx">资讯列表 </a> > 正文</div>
+<div class="heng"></div>
+<div class="body bd">
+    <div class="left box">
+     <div class="content viewinfo">
+     <div class="info_tit">{$view["articletitle"]}</div>
+     <div class="info_copy"><span>发布时间:</span>{$view["createDate"]}&nbsp;&nbsp;&nbsp;&nbsp;点击:<b>{$view["hitNum"]}</b></div>
+        {$view["content"]}
+     </div>
+     
+    </div>
+    <div class="right">
+{include file="right.htm"}
+        </div>
+	</div>
+</div>
+<!--主体1部分 over-->
+<div class="heng"></div>
+<!--底部 start-->
+{include file="footer.htm"}

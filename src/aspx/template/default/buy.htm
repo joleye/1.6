@@ -1,0 +1,56 @@
+﻿{assign pagetitle="订购"}
+
+{include file="header.htm"}
+<div class="tool bd">目前位置 ：<a href="index.aspx">首页</a> &gt; {$pagetitle}</div>
+<div class="heng"></div>
+<div class="body bd">
+	<div class="left box">
+	    <div class="title"></div>
+	    <div class="content">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>收货地址： </td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>其他收货地址：</td>
+              <td><label for="textfield"></label>
+                <p>收件人：
+                  <input type="text" name="textfield" id="textfield" />
+                </p>
+              <p>地址：
+                <label for="textfield2"></label>
+                <input type="text" name="textfield2" id="textfield2" />
+</p>
+              <p>邮编：
+                <label for="textfield3"></label>
+                <input type="text" name="textfield3" id="textfield3" />
+              </p>
+              <p>电话：
+                <label for="textfield4"></label>
+                <input type="text" name="textfield4" id="textfield4" />
+              </p>
+              <p>手机：
+                <label for="textfield5"></label>
+                <input type="text" name="textfield5" id="textfield5" />
+              </p></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td><label for="button"></label>
+                <label for="button2"></label>
+                <input type="submit" name="button2" id="button2" value="继续购物" />
+                <input type="submit" name="button" id="button" value="去结算" /></td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+  </div>
+    <div class="right">
+      {include file="right.htm"}
+    </div>
+    <div class="clear"></div>
+</div>
+{include file="footer.htm"}

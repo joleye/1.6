@@ -1,0 +1,81 @@
+{assign pagetitle="用户注册"}
+{include file="header.htm"}
+<div class="tool bd">目前位置 ：首页 > 用户注册</div>
+<div class="heng"></div>
+<div class="body bd">
+	<div class="left box">
+	    <div class="title">用户注册</div>
+	    <div class="content">
+<form method="post" class="form" onsubmit="return do_check(this);">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tb">
+  <tr>
+    <td width="30%" height="25" align="right">用户名：</td>
+    <td><label>
+      <input type="text" name="username" id="username">
+    </label></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">密码：</td>
+    <td><label>
+      <input name="pwd" type="password" id="pwd" size="20">
+    </label></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">重复密码：</td>
+    <td><input name="repwd" type="password" id="repwd" size="20"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">真实姓名：</td>
+    <td><label>
+      <input name="truename" type="text" id="truename" size="20">
+    </label></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">性别：</td>
+    <td><label for="radio">
+      <input name="sex" type="radio" id="radio" value="1" checked>
+    男</label>
+    <label for="radio2"><input type="radio" name="sex" id="radio2" value="0">
+    女</label></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">出生日期：</td>
+    <td><input name="birth" type="text" id="birth" size="20"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">邮件：</td>
+    <td><input type="text" name="email" id="email"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">联系电话：</td>
+    <td><input type="text" name="telphone" id="telphone"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">手机：</td>
+    <td><input name="mobile" type="text" id="mobile" size="20"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">QQ：</td>
+    <td><input type="text" name="qq" id="qq"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">地址：</td>
+    <td><input name="address" type="text" id="address" size="35"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">&nbsp;</td>
+    <td><label>
+      <input type="submit" name="button" id="button" value="提交">
+      <input type="reset" name="button2" id="button2" value="重置">
+    </label></td>
+  </tr>
+</table>
+</form>
+            </div>
+	</div>
+    <div class="right">
+      {include file="right.htm"}
+    </div>
+    <div class="clear"></div>
+</div>
+{include file="footer.htm"}

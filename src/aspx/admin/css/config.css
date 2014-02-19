@@ -1,0 +1,270 @@
+@charset "gb2312";
+/* CSS Document */
+body{ font-size:14px; color: #0033CC; padding: 0px; margin: 0px; }
+a:link{ color: #0000CC; text-decoration: underline; }
+a:active{
+	color: #FF0000;
+	text-decoration: underline;
+}
+a:hover{ color: #FF0000; text-decoration: underline; }
+a:visited{ color: #0000CC; text-decoration: underline; }
+div,ul,li,table,tr,td,form{
+	margin: 0px;
+	overflow:hidden;
+	list-style:none;
+	padding: 0px;
+}
+td{ padding-right: 2px; padding-left: 2px; }
+img{border:none;}
+
+
+.input { border: 1px solid #999999; line-height: 25px; height: 22px; width: auto; font-size: 14px; line-height:22px; }
+.inputOnclick { border: 1px solid #FF8102; line-height: 25px; height: 22px; width: auto; font-size: 14px; line-height:22px;}
+.inputOnclick.In{border: 1px solid #0154de;}
+.button
+{ background-color: #7DC0E4; height: 25px; width: auto; color: #FFFFFF; letter-spacing: 1px; padding-left: 5px; padding-right: 5px; line-height: 25px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; }
+.button_reset {
+	border: 1px none #20709B;
+	height: 30px;
+	width: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.blank5{
+	margin: auto;
+	height: 5px;
+	width: 100%;
+}
+.edit{text-decoration: none; cursor:pointer; background-image: url(../images/ico_edit.gif); background-repeat: no-repeat; background-position: left center; padding-left: 18px; }
+.s_edit{text-decoration: none; cursor:pointer; background-image: url(../images/ico_sedit.gif); background-repeat: no-repeat; background-position: left center; padding-left: 18px; }
+
+.Main_top { margin: auto; height: 63px; width: auto; background-repeat: repeat; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; background-image: url(../images/admin_03.gif); }
+.Main_top .Main_top_left {
+	height: 70px;
+	width: 600px;
+	background-image: url(../images/admin_01.gif);
+	padding-left: 53px;
+	background-repeat: no-repeat;
+	padding-top: 4px;
+	padding-right: 40px;
+	float: left;
+}
+.Main_top .Main_top_left .menu_01 {
+	height: 100px;
+}
+.Main_top .Main_top_left .menu_03 {
+	height: 90px;
+	padding-left: 10px;
+}
+
+.Main_top .Main_top_left a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.Main_top .Main_top_right {
+	float: right;
+	height: 64px;
+	width: auto;
+}
+
+
+/*操作界面顶部样式*/
+.Main_top li {
+	float: left;
+	height: 64px;
+	width: 100px;
+	margin: 5px;
+	line-height: 64px;
+	text-align: center;
+}
+.Main_top .Main_top_right {
+	float: right;
+	margin-top: 25px;
+	height: auto;
+	margin-right: 5%;
+}
+.Main_top .Main_top_right a {
+	float: left;
+	line-height: 23px;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-color: #0033FF;
+	border: 1px solid #000033;
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #FFFFFF;
+	height: 23px;
+}
+
+
+/*左边导航条样*/
+.Left_tree{
+	text-align: center;
+	width: 126px;
+	height: auto;
+	margin: 10px;
+}
+.Left_tree li{
+	line-height: 22px;
+	height: 22px;
+	width: 126px;
+	text-align: center;
+	background-image: url(../images/admin_11.gif);
+	float: left;
+}
+.Left_tree .treeHead {
+	background-image: url(../images/admin_10.gif);
+	height: 11px;
+}
+.Left_tree .treeFoot {
+	background-image: url(../images/admin_13.gif);
+	height: 15px;
+}
+.content_webMain { width: auto; }
+.content_webMain .left { float: left; width: 170px; }
+.content_webMain .right { float: left; margin: auto; height: 100%; width: 85%; }
+
+
+
+
+fieldset{
+	border: 1px solid #D4D0C8;
+	margin: 0px;
+	height: auto;
+	width: auto;
+}
+legend {
+	font-size: 14px;
+	font-weight: bold;
+	color: #A3B2CC;
+	padding: 10px;
+}
+
+.intro {
+	margin: 5px;
+	padding: 5px;
+}
+.brand_content {
+	height: 35px;
+	width: 99%;
+	margin: 5px;
+}
+.brand_content span {
+	height: 20px;
+}
+
+.spanLabel {
+	color: #FF0000;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.proType{
+
+}
+.proType li ul{
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+.proType li ul li{
+	line-height: 35px;
+	height: 35px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #666666;
+	width: 400px;
+	margin-top: 5px;
+}
+
+
+/*add by net*/
+.page { width: 95%; height: auto; margin-top: 10px; margin-right: auto; margin-bottom: auto; margin-left: auto; }
+.page .content {
+	height: auto;
+	width: auto;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+.Line25 {
+	line-height: 25px;
+}
+.Line30 {
+	line-height: 30px;
+}
+.listImg{
+	height: auto;
+	width: auto;
+	position:relative;
+	overflow: visible;
+}
+.listImg .img{
+	display:none;
+	position:absolute;
+	height: auto;
+	width: auto;
+}
+
+.info_nav{ padding: 5px; width: 60%; margin: auto; background-color: #bcbcbc; }
+.info_nav .title{ background-color: #FF9933; padding: 5px; height: auto; width: auto; margin-bottom: 10px; line-height: 25px; }
+.info_nav  .span{ font-size: 16px; font-weight: bold; color: #FF0000; line-height: 30px; height: 30px; margin-top: 10px; }
+.info_nav li{ line-height: 25px; height: 25px; }
+
+/*底部*/
+.footer {
+	height: auto;
+	width: 95%;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+.tb td,.tb th{
+	border-right:1px solid #0066cc;
+	border-bottom:1px solid #0066cc;
+}
+.tb th{ background:#eee;}
+table.tb{
+	border-collapse:collapse;
+	width:100%;
+	border:1px solid #0066cc;
+	
+}
+.tb tbody td+td+td+td+td+td{border-right:1px solid #0066cc}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*公共部分*/
+.navPoint { CURSOR: hand; }
+/*body {OVERFLOW-X: hidden; OVERFLOW: hidden; }*/
+/*分页样式*/
+.pageBox
+{ margin-top: 20px; margin-right: auto; margin-left: auto; width: 90%; padding-left: 5px; _padding-left: 10px; height: 50px; float: left; overflow: hidden; font-family: Arial, Helvetica, sans-serif; }
+
+.pageBox a,
+.pageBox span
+{ width: auto; display: block; height: 18px; line-height: 17px; margin-right: 5px; overflow: hidden; text-decoration: none; font-weight: bold; color: #999999; border: 1px solid #cccccc; background-color: #FFFFFF; float: left; text-align: center; font-size: 8pt; padding-top: 5px; padding-right: 10px; padding-bottom: 5px; padding-left: 10px; }
+
+.pageBox a:hover{ text-decoration: none;}
+.pageBox a:visited{	text-decoration: none;}
+.pageBox .visited{ text-decoration: none; border:none; background-color: #4FA9D9; color: #FFFFFF; height: 20px; padding-right: 11px; padding-left: 11px; }

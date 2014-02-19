@@ -1,0 +1,74 @@
+﻿{include file="header.htm"}
+<div class="tool bd">目前位置 ：首页 >  {$config_site["website"]}</div>
+<div class="heng"></div>
+<div class="body bd">
+	<div class="left">
+    	
+		<div class="box">
+        <div class="turn"><img src="images/1.jpg" /></div>
+        </div>
+        
+        <div class="blank10"></div>
+        <div class="box">
+        	<div class="title">最新动态</div>
+            <div class="content">
+                <ul class="listbox">
+                {loop dr=get_home(8)}
+                          <li><a href="viewinfo-{$dr["id"]}.aspx">{$dr["articletitle"]}</a> <span>{$dr["createDate"]|date_format}</span></li>
+                {/loop}
+                </ul>
+            </div>
+        </div>
+        {loop dr=get_sql("select top 10 id,articletitle from @PRE_article")}
+        	<a href="{@dr.id}">{@dr.articletitle}</a>
+        {/loop}
+        <div class="blank10"></div>
+        <div class="box">
+            <div class="title">成功案例</div>
+            <div class="content">
+                <div class="img">
+                    <dl>
+                        <dt><a href="http://www.boaozhineng.com" target="_blank"><img src="images/3.jpg" /></a></dt>
+                        <dd><a href="http://www.boaozhineng.com" target="_blank">博奥智能</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="http://www.unitesmart.com" target="_blank"><img src="images/2.jpg" /></a></dt>
+                        <dd><a href="http://www.unitesmart.com" target="_blank">联邦科技</a></dd>
+                    </dl>
+                    <dl> 
+                        <dt><a href="http://www.shenzai.net" target="_blank"><img src="images/4.jpg" /></a></dt>
+                        <dd><a href="http://www.shenzai.net" target="_blank">神崽童服</a></dd>
+                    </dl>
+              </div>
+                
+                <div class="item">
+                    <ul>
+                        <li><a href="http://www.boaozhineng.com" target="_blank">博奥智能</a></li>
+                        <li><a href="http://www.unitesmart.com" target="_blank">联邦科技</a></li>
+                    </ul>
+                </div>
+<div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="blank10"></div>
+        
+        <div class="box">
+            <div class="title">友情链接</div>
+            <div class="content">
+                    <ul class="link">
+                        <li><a href="http://www.01rich.com/" target="_blank">NO.1财富</a></li>
+                        <li><a href="http://www.01shu.com/" target="_blank">第一书虫网</a></li>
+                        <li><a href="http://www.cnlsfs.com" target="_blank">芦淞服饰网</a></li>
+                        <li><a href="http://www.f4go.cn" target="_blank">服饰购</a></li>
+                        <li><a href="http://tieba.baidu.com/f?ct=&tn=&rn=&pn=&lm=&cm=0&kw=%B5%CB%BE%FD%E1%B0&rs2=0&sc=&un=&rs1=&rs5=&sn=&rs6=&myselectvalue=0&word=%B5%CB%BE%FD%E1%B0&tb=on" target="_blank">邓君岚贴吧</a></li>
+                    </ul>
+            </div>
+        </div>
+	</div>
+    <div class="right">
+      {include file="right.htm"}
+    </div>
+</div>
+<div class="heng"></div>
+{include file="footer.htm"}

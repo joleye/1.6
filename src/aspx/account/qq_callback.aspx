@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="qq_callback.aspx.cs" Inherits="account_qq_callback" %>

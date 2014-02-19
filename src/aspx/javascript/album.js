@@ -1,0 +1,10 @@
+document.write("<script type='text/javascript' src='/yzy/albumhome.aspx'></script>");
+var flashvars = 'config='+config+'&bcastr_flie='+files+'&bcastr_link='+links+'&bcastr_title='+texts;
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+document.write('<param name="movie" value="../template/default/swf/focus.swf">');
+document.write('<param name="quality" value="high">');
+document.write('<param name="menu" value="false">');
+document.write('<param name="wmode" value="Transparent">');
+document.write('<param name="FlashVars" value="' + flashvars + '">');
+document.write('<embed src="../template/default/swf/focus.swf" wmode="opaque" FlashVars="' + flashvars + '" menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">');
+document.write('</object>');

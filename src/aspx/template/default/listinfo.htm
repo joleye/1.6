@@ -1,0 +1,23 @@
+{include file="header.htm"}
+<div class="tool bd">目前位置 ：首页 >  在线资料</div>
+<div class="body bd">
+   <div class="left box">
+	<div class="title">资讯列表</div>
+	<div class="content">
+	 <ul class="listbox">
+{loop dr=get_list(25)}
+           <li><a href="viewinfo-{$dr["id"]}.aspx">{$dr["articletitle"]}</a> <span>{$dr["createDate"]|time_format}</span></li>
+{/loop}
+	 </ul>
+<div class="pageBox">
+{$pageBox}
+</div>
+	</div>
+    </div>
+    <div class="right">
+{include file="right.htm"}
+    </div>
+</div>
+<!--主体1部分 over-->
+<div class="heng"></div>
+{include file="footer.htm"}

@@ -1,0 +1,43 @@
+{assign pagetitle="修改密码"}
+{include file="header.htm"}
+<div class="tool bd">目前位置 ：首页 > 用户中心</div>
+<div class="heng"></div>
+<div class="body bd">
+	<div class="left box">
+	    <div class="title"><a href="userinfo.aspx">基本信息</a> <a href="userpass.aspx">修改密码</a> </div>
+      <div class="content">
+<form method="post" class="form" onsubmit="return do_check(this);">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tb">
+  <tr>
+    <td width="30%" height="25" align="right">用户名：</td>
+    <td><label>
+      <input type="text" name="username" id="username">
+    </label></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">密码：</td>
+    <td><label>
+      <input name="pwd" type="password" id="pwd" size="20">
+    </label></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">重复密码：</td>
+    <td><input name="repwd" type="password" id="repwd" size="20"></td>
+  </tr>
+  <tr>
+    <td height="25" align="right">&nbsp;</td>
+    <td><label>
+      <input type="submit" name="button" id="button" value="提交">
+      <input type="reset" name="button2" id="button2" value="重置">
+    </label></td>
+  </tr>
+</table>
+</form>
+            </div>
+	</div>
+    <div class="right">
+      {include file="right.htm"}
+    </div>
+    <div class="clear"></div>
+</div>
+{include file="footer.htm"}
